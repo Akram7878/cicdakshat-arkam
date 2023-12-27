@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('checkout'){
             steps{
-                git url: 'https://github.com/akshu20791/DevOpsClassCodes.git/'
+                git url: 'https://github.com/Akram7878/cicdakshat-arkam/'
             }
         }
         stage('codecompile'){
